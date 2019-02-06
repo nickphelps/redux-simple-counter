@@ -10,11 +10,26 @@
     <div class="app">
         <h1 id="counterValue">0</h1>
         <button id="increment">+1</button>
+        <button id="decrement">-1</button>
+        <br>
+        <button id="increment-five">+5</button>
+        <button id="decrement-five">-5</button>
+        <br>
+        <select id="color-picker">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br>
+        <form>
+            Enter Counter Value: <input id="counterInput" type="text" name="counterValue" value="Please Enter Value">
+            <input id="submitButton" type="button" value="Submit">
+        </form>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
-    <script src="reducer.js"></script>
-    <script src="render.js"></script>
+    <!-- <script src="reducer.js"></script>
+    <script src="render.js"></script> -->
     <script src="index.js"></script>
 </body>
 </html>
